@@ -36,3 +36,7 @@ function isFalse(x) {
     return false;
   }
 }
+
+function not(x) {
+  return !x;
+}
