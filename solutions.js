@@ -28,3 +28,11 @@ function isTrue(x) {
     return false;
   }
 }
+
+function isFalse(x) {
+  if (x === false) {
+    return true;
+  } else {
+    return false;
+  }
+}
