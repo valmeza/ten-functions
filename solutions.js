@@ -78,7 +78,7 @@ function isEqual(x, y) {
   }
 }
 
-function or(x, y) {
+function or(x, y) { 
   if (x === "hello") {
     return x;
   }
