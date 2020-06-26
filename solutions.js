@@ -58,3 +58,11 @@ function isEven(x) {
     return false;
   }
 }
+
+function isIdentical(x, y) {
+  if (x === y) {
+    return true;
+  } else {
+    return false;
+  }
+}
