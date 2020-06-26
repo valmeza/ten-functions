@@ -66,3 +66,11 @@ function isIdentical(x, y) {
     return false;
   }
 }
+
+function isEqual(x, y) {
+  if (x == y) {
+    return true;
+  } else {
+    return false;
+  }
+}
