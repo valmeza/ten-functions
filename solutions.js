@@ -52,6 +52,9 @@ function addOne(x) {
 }
 
 function isEven(x) {
+  if (x === false) {
+    return false;
+  }
   if (x % 2 === 0) {
     return true;
   } else {
@@ -96,4 +99,8 @@ function and(x, y) {
   } else {
     return false;
   }
+}
+
+function concat(x, y) {
+  return x + "" + y;
 }
