@@ -40,3 +40,13 @@ function isFalse(x) {
 function not(x) {
   return !x;
 }
+
+function addOne(x) {
+  if (Number(x)) {
+    return Number(x) + 1;
+  } else if (x === "0") {
+    return 0 + 1;
+  } else {
+    return false;
+  }
+}
