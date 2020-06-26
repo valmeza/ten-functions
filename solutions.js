@@ -20,3 +20,11 @@
  * and
  * concat
  */
+
+function isTrue(x) {
+  if (x === true) {
+    return true;
+  } else {
+    return false;
+  }
+}
