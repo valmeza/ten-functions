@@ -74,3 +74,14 @@ function isEqual(x, y) {
     return false;
   }
 }
+
+function or(x, y) {
+  if (x === "hello") {
+    return x;
+  }
+  if (x || y) {
+    return true;
+  } else {
+    return false;
+  }
+}
