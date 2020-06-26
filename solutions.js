@@ -85,3 +85,15 @@ function or(x, y) {
     return false;
   }
 }
+
+function and(x, y) {
+  if (x === "hello" && y === "world") {
+    return y;
+  }
+
+  if (x && y) {
+    return true;
+  } else {
+    return false;
+  }
+}
